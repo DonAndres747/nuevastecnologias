@@ -17,8 +17,7 @@ AFRAME.registerComponent('collider', {
          const idTrigger = e.detail.body.el.id;
          const triggers = {
             'trigger': () =>{
-               let audio = document.querySelector("#A1");
-               audio.play();
+               
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
                let trabajar = document.querySelector("#trabajarOpc")
                trabajar.setAttribute("visible", "true")
@@ -26,8 +25,7 @@ AFRAME.registerComponent('collider', {
                tradajar.setAttribute("visible", "true")
             },
             'trigger1': () =>{
-               let audio = document.querySelector("#A2");
-               audio.play();
+               
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
                let amistad = document.querySelector("#amistadOpc")
                amistad.setAttribute("visible", "true")
@@ -36,8 +34,7 @@ AFRAME.registerComponent('collider', {
                
             },
             'trigger2': () =>{
-               let audio = document.querySelector("#A3");
-               audio.play();
+              
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
                let cobija = document.querySelector("#cobijaOpc")
                cobija.setAttribute("visible", "true")
@@ -45,8 +42,7 @@ AFRAME.registerComponent('collider', {
                codija.setAttribute("visible", "true")
             },
             'trigger3': () =>{
-               let audio = document.querySelector("#A4");
-               audio.play();
+               
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
                let plato = document.querySelector("#PlatoOpc")
                plato.setAttribute("visible", "true")
@@ -54,8 +50,7 @@ AFRAME.registerComponent('collider', {
                plalto.setAttribute("visible", "true")
             },
             'trigger4': () =>{
-               let audio = document.querySelector("#A5");
-               audio.play();
+               
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
                let barril = document.querySelector("#BarrilOpc")
                barril.setAttribute("visible", "true")
@@ -63,8 +58,7 @@ AFRAME.registerComponent('collider', {
                bagil.setAttribute("visible", "true")
             },
             'trigger5': () =>{
-               let audio = document.querySelector("#A6");
-               audio.play();
+              
                e.detail.body.el.parentNode.removeChild(e.detail.body.el);
                let palabra = document.querySelector("#palabraOpc")
                palabra.setAttribute("visible", "true")
